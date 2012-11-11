@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  梦想无限大
+title:  Be Better
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
