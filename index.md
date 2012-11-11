@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  lqg 11 22
+title:  梦想无限大
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
