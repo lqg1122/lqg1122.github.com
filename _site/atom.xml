@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>GitHub Blog of lqg1122</title>
+ <link href="http://lqg1122.github.com/atom.xml" rel="self"/>
+ <link href="http://lqg1122.github.com"/>
+ <updated>2012-11-14T23:06:46+08:00</updated>
+ <id>http://lqg1122.github.com</id>
+ <author>
+   <name>一直很低调</name>
+   <email>lqg1122@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>My First Post Test</title>
+   <link href="http://lqg1122.github.com/lessons/2012/11/13/my-first-post-test"/>
+   <updated>2012-11-13T00:00:00+08:00</updated>
+   <id>http://lqg1122.github.com/lessons/2012/11/13/my-first-post-test</id>
+   <content type="html">&lt;h2 id='just_a_demo_here'&gt;Just a Demo Here&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;here comes the code,well!&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
+ 
+ 
+</feed>
