@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: lqg1122  
+tagline:     Enjoy coding , enjoy live .
 ---
 
 
