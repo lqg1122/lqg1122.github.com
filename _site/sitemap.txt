@@ -1,10 +1,13 @@
 
 http://lqg1122.github.com/atom.xml
+http://lqg1122.github.com/others.html
 http://lqg1122.github.com/categories.html
 http://lqg1122.github.com/pages.html
+http://lqg1122.github.com/java.html
 http://lqg1122.github.com/archive.html
 http://lqg1122.github.com/sitemap.txt
 http://lqg1122.github.com/tags.html
+http://lqg1122.github.com/linux.html
 http://lqg1122.github.com/index.html
 http://lqg1122.github.com/erlang.html
 
