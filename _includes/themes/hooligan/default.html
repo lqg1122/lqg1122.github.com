@@ -3,10 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>
-      {% if page.title %}
-        {{ page.title }} - 
-      {% endif %}
-      {{ site.title }}
+      {{ site.title }}   
     </title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
@@ -15,7 +12,10 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    <!-- {% if page.title %}
+        {{ page.title }} - 
+      {% endif %}
+      {{ site.title }} -->
 
     <script src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
