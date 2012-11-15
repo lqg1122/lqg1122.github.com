@@ -49,32 +49,48 @@
           </a>      
 
 
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-
-
+          <!-- <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a> -->
+          <a class="brand" href="{{ HOME_PATH }}">Home</a>
+          <a class="brand" href="{{ BASE_PATH }}/erlang.html">Erlang</a>
+          <a class="brand" href="{{ BASE_PATH }}">Java</a>
+          <a class="brand" href="{{ BASE_PATH }}">Linux</a>
+          <a class="brand" href="{{ BASE_PATH }}">Others</a>
+          <a class="brand" href="{{ BASE_PATH }}/archive.html">All</a>
+          
           <div class="nav-collapse">
-            <ul class="nav">
+            <!-- 顶端的子菜单列表 begin -->
+            <!-- <ul class="nav">
+              <a class="brand" href="">Erlang</a>
+            </ul> -->
+            <!-- <ul class="nav">
               {% assign pages_list = site.pages %}
               {% assign group = 'navigation' %}
               {% include JB/pages_list %}
-            </ul>
+            </ul> -->
+            <!-- 顶端的子菜单列表 end -->
+            <!-- 标题栏尾端的外部链接按钮 begin-->
             <ul class="nav pull-right social visible-desktop">
               <li class="divider-vertical"></li>
-              {% if site.author.github %}
+              <li>
+                  <a href="https://www.github.com/{{ site.author.github }}" class="zocial github icon" target="_blank">
+                    <span class="hidden-desktop">Github</a>
+                  </a>
+              </li>
+              <!-- {% if site.author.github %}
                 <li>
                   <a href="https://www.github.com/{{ site.author.github }}" class="zocial github icon" target="_blank">
                     <span class="hidden-desktop">Github</a>
                   </a>
                 </li>
-              {% endif %}
-              {% if site.author.googleplus %}
+              {% endif %} -->
+              <!-- {% if site.author.googleplus %}
                 <li>
                   <a href="https://profiles.google.com/{{ site.author.google }}" class="zocial googleplus icon" target="_blank">
                     <span class="hidden-desktop">Google+</a>
                   </a>
                 </li>
-              {% endif %}    
-              {% if site.author.twitter %}
+              {% endif %}   -->  
+              <!-- {% if site.author.twitter %}
                 <li>
                   <a href="http://www.twitter.com/{{ site.author.twitter }}" class="zocial twitter icon" target="_blank">
                   <span class="hidden-desktop">Twitter</a>
@@ -101,7 +117,8 @@
                     <span class="hidden-desktop">FeedBurner</a>
                   </a>
                 </li>
-              {% endif %}
+              {% endif %} -->
+              <!-- 标题栏尾端的外部链接按钮 end-->
             </ul>
           </div>
         </div>
