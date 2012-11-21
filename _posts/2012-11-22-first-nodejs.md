@@ -4,11 +4,11 @@ category : lessons
 tags : [intro, beginner, jekyll, tutorial]
 ---
 
-##最近弄了下node.js，写了个解析html来获取信息的demo。
+最近弄了下node.js，写了个解析html来获取信息的demo。
 
-##初试手，那此blog来开刀了。。。。上代码先：
+初试手，那此blog来开刀了。。。。上代码先：
 
-'test.js'
+`test.js`
 
 	var $ = require('jquery');
 	var http = require('http');
@@ -38,15 +38,15 @@ tags : [intro, beginner, jekyll, tutorial]
 
 
 
-#这里添加了jquery库来支持html解析，先前要先安装哦：
+这里添加了jquery库来支持html解析，先前要先安装哦：
 	$npm install jquery
-#这里对代码做一下解析：这里要实现的功能是，获取当前页面上博客目录的名称和链接地址，首先要先把整个页面的html获取，
-#options的参数分别是页面的资源域名，端口，路径；
-#前面定义的全局 html 变量意思为默认整个页面；
-#通过nodejs http模块的get方法来进行读取，同时开启了对数据的listern，当读取到数据时，触发‘data’；
-#当数据读取完毕，触发‘end’。所以解析将在数据读取完毕进行。
+这里对代码做一下解析：这里要实现的功能是，获取当前页面上博客目录的名称和链接地址，首先要先把整个页面的html获取，
+options的参数分别是页面的资源域名，端口，路径；
+前面定义的全局 html 变量意思为默认整个页面；
+通过nodejs http模块的get方法来进行读取，同时开启了对数据的listern，当读取到数据时，触发‘data’；
+当数据读取完毕，触发‘end’。所以解析将在数据读取完毕进行。
 
-#右键查看页面源码，要的就是若干段类似下面这段html代码中的href和文本内容：
+右键查看页面源码，要的就是若干段类似下面这段html代码中的href和文本内容：
 
 	<div id="article_list" class="list">
 
