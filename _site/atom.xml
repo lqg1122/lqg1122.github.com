@@ -4,13 +4,26 @@
  <title>lqg1122</title>
  <link href="http://lqg1122.github.com/atom.xml" rel="self"/>
  <link href="http://lqg1122.github.com"/>
- <updated>2012-11-15T22:07:29+08:00</updated>
+ <updated>2012-11-15T22:43:15+08:00</updated>
  <id>http://lqg1122.github.com</id>
  <author>
    <name>一直很低调</name>
    <email>lqg1122@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>First Erlang Post</title>
+   <link href="http://lqg1122.github.com/lessons/2012/11/15/first-erlang-post"/>
+   <updated>2012-11-15T00:00:00+08:00</updated>
+   <id>http://lqg1122.github.com/lessons/2012/11/15/first-erlang-post</id>
+   <content type="html">&lt;h2 id='erlang_post_test'&gt;erlang post test&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;-module(erlang).
+-export([e/0]).
+e()-&amp;gt;
+	io:format(&amp;quot;hello world&amp;quot;).&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
  
  <entry>
    <title>My First Post Test</title>

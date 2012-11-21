@@ -11,4 +11,5 @@ http://lqg1122.github.com/linux.html
 http://lqg1122.github.com/index.html
 http://lqg1122.github.com/erlang.html
 
+http://lqg1122.github.com/lessons/2012/11/15/first-erlang-post
 http://lqg1122.github.com/lessons/2012/11/13/my-first-post-test
